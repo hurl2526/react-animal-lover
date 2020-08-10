@@ -60,7 +60,7 @@ class App extends Component {
             handleDisLiked={this.handleDisLiked}
             handleDiscard={this.handleDiscard}
           />
-          <Sidebar />
+          <Sidebar animals={this.state.animals} liked={this.state.liked} disliked={this.state.disliked} />
         </div>
       </div>
     );
