@@ -9,7 +9,7 @@ const Header = (props) => {
           textAlign: 'left',
         }}
       >
-        <h3>Animal Lover</h3>
+        <h2>Animal Lover</h2>
       </header>
     </div>
   );
